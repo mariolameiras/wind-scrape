@@ -1,7 +1,7 @@
 {
   "name": "wind-scrape",
   "version": "3.0.5",
-  "description": "Scrape wind forecast from a few websites",
+  "description": "Scrape wind forecast from windguru",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "private": true,
@@ -10,14 +10,12 @@
   ],
   "scripts": {
     "test": "jest",
-    "watch-test": "jest --watch",
     "watch": "tsc -w",
-    "test-dev": "node tests/dev-sandbox.js",
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeroentvb/wind-scrape.git"
+    "url": "git+https://github.com/mariolameiras/wind-scrape.git"
   },
   "keywords": [
     "package",
@@ -28,20 +26,12 @@
   "author": "jeroentvb",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jeroentvb/wind-scrape/issues"
+    "url": "https://github.com/mariolameiras/wind-scrape/issues"
   },
-  "homepage": "https://github.com/jeroentvb/wind-scrape#readme",
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "node-fetch": "^2.6.0",
-    "puppeteer": "^1.20.0"
-  },
+  "homepage": "https://github.com/mariolameiras/wind-scrape#readme",
   "devDependencies": {
-    "@types/cheerio": "^0.22.17",
     "@types/jest": "^25.2.1",
     "@types/node": "^12.12.34",
-    "@types/node-fetch": "^2.5.5",
-    "@types/puppeteer": "^1.20.4",
     "jeroentvb-helper": "github:jeroentvb/jeroentvb-helper",
     "jest": "^24.9.0",
     "typescript": "^3.8.3"
